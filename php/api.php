@@ -7,15 +7,9 @@ include_once "./conn_db.php"; // Conexión a la base de datos
 // Comprobamos si la solicitud es POST o GET para manejar los parámetros
 if ($_SERVER["REQUEST_METHOD"] == "GET" || $_SERVER["REQUEST_METHOD"] == "POST") {
     // Obtenemos los parámetros de búsqueda
-    $search = isset($_REQUEST['search']) ? trim($_REQUEST['search']) : '';
+    $search = isset($_REQUEST['format']) ? trim($_REQUEST['format']) : '';
 
-    if ($search == "") {
-        $data = json_encode([
-            'status' => 'error',
-            'message' => 'The search_key field cannot be empty',
-        ]);
-        die($data);
-    }
+    $format = ($search == "1" || $search == '') ? 1 : 2;
 
     $query_all = "SELECT t.id, t.fecha, t.id_turno, s.nombre, s.horario FROM trabajo AS t INNER JOIN turno AS s ON t.id_turno = s.id ORDER BY t.id ASC";
     $result = mysqli_query($conn, $query_all);
@@ -26,28 +20,34 @@ if ($_SERVER["REQUEST_METHOD"] == "GET" || $_SERVER["REQUEST_METHOD"] == "POST")
         // Si hay resultados, los agregamos al array de respuesta
         if ($n_rows > 0) {
           while ($row = mysqli_fetch_assoc($result)) {
-            /*
-            if ($row['id_turno'] == 1) {
-              $start = $row['fecha'] . "T07:00:00";
-              $end = $row['fecha'] . "T19:00:00";
-            } else if ($row['id_turno'] == 2) {
-              $start = $row['fecha'] . "T19:00:00";
-              $date = new DateTime($row['fecha']);
-              $date->modify('+1 day');
-              $end = $date->format('Y-m-d') . "T07:00:00";
-              
-              // $fecha = date('Y-m-d', strtotime($row['fecha'] . ' +1 day'));
-              // $end = $fecha . "T07:00:00";
-            }
-            */
 
-            $data[] = [
+            if ($format == 1) {
+              $data[] = [
+                  'title' => "[" . $row['id'] . "] Turno: " . $row['nombre'],
+                  'start' => $row['fecha']
+                  ];
+            } else {
+
+              if ($row['id_turno'] == 1) {
+                $start = $row['fecha'] . "T07:00:00";
+                $end = $row['fecha'] . "T19:00:00";
+              } else if ($row['id_turno'] == 2) {
+                $start = $row['fecha'] . "T19:00:00";
+                $date = new DateTime($row['fecha']);
+                $date->modify('+1 day');
+                $end = $date->format('Y-m-d') . "T07:00:00";
+              
+                // $fecha = date('Y-m-d', strtotime($row['fecha'] . ' +1 day'));
+                // $end = $fecha . "T07:00:00";
+              }
+
+              $data[] = [
                 'title' => "[" . $row['id'] . "] Turno: " . $row['nombre'],
-                'start' => $row['fecha']
-                // 'start' => $start,
-                // 'end' => $end
+                'start' => $start,
+                'end' => $end
                 ];
             }
+          }
         }
 
         // Devolvemos los resultados en formato JSON

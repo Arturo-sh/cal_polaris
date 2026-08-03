@@ -1,6 +1,6 @@
 trabajo2026 = [
   {
-    "title": "[1] Turno: Dia",
+    "title": "[1] Turno: Día",
     "start": "2026-01-01"
   },
   {
@@ -12,7 +12,7 @@ trabajo2026 = [
     "start": "2026-01-06"
   },
   {
-    "title": "[4] Turno: Dia",
+    "title": "[4] Turno: Día",
     "start": "2026-01-09"
   },
   {
@@ -24,7 +24,7 @@ trabajo2026 = [
     "start": "2026-01-14"
   },
   {
-    "title": "[7] Turno: Dia",
+    "title": "[7] Turno: Día",
     "start": "2026-01-16"
   },
   {
@@ -60,35 +60,35 @@ trabajo2026 = [
     "start": "2026-01-30"
   },
   {
-    "title": "[16] Turno: Dia",
+    "title": "[16] Turno: Día",
     "start": "2026-02-02"
   },
   {
-    "title": "[17] Turno: Dia",
+    "title": "[17] Turno: Día",
     "start": "2026-02-03"
   },
   {
-    "title": "[18] Turno: Dia",
+    "title": "[18] Turno: Día",
     "start": "2026-02-04"
   },
   {
-    "title": "[19] Turno: Dia",
+    "title": "[19] Turno: Día",
     "start": "2026-02-05"
   },
   {
-    "title": "[20] Turno: Dia",
+    "title": "[20] Turno: Día",
     "start": "2026-02-09"
   },
   {
-    "title": "[21] Turno: Dia",
+    "title": "[21] Turno: Día",
     "start": "2026-02-10"
   },
   {
-    "title": "[22] Turno: Dia",
+    "title": "[22] Turno: Día",
     "start": "2026-02-11"
   },
   {
-    "title": "[23] Turno: Dia",
+    "title": "[23] Turno: Día",
     "start": "2026-02-12"
   },
   {
@@ -100,7 +100,7 @@ trabajo2026 = [
     "start": "2026-02-17"
   },
   {
-    "title": "[26] Turno: Dia",
+    "title": "[26] Turno: Día",
     "start": "2026-02-20"
   },
   {
@@ -112,7 +112,7 @@ trabajo2026 = [
     "start": "2026-02-25"
   },
   {
-    "title": "[29] Turno: Dia",
+    "title": "[29] Turno: Día",
     "start": "2026-02-27"
   },
   {
@@ -148,35 +148,35 @@ trabajo2026 = [
     "start": "2026-03-13"
   },
   {
-    "title": "[38] Turno: Dia",
+    "title": "[38] Turno: Día",
     "start": "2026-03-16"
   },
   {
-    "title": "[39] Turno: Dia",
+    "title": "[39] Turno: Día",
     "start": "2026-03-17"
   },
   {
-    "title": "[40] Turno: Dia",
+    "title": "[40] Turno: Día",
     "start": "2026-03-18"
   },
   {
-    "title": "[41] Turno: Dia",
+    "title": "[41] Turno: Día",
     "start": "2026-03-19"
   },
   {
-    "title": "[42] Turno: Dia",
+    "title": "[42] Turno: Día",
     "start": "2026-03-23"
   },
   {
-    "title": "[43] Turno: Dia",
+    "title": "[43] Turno: Día",
     "start": "2026-03-24"
   },
   {
-    "title": "[44] Turno: Dia",
+    "title": "[44] Turno: Día",
     "start": "2026-03-25"
   },
   {
-    "title": "[45] Turno: Dia",
+    "title": "[45] Turno: Día",
     "start": "2026-03-26"
   },
   {
@@ -188,7 +188,7 @@ trabajo2026 = [
     "start": "2026-03-31"
   },
   {
-    "title": "[48] Turno: Dia",
+    "title": "[48] Turno: Día",
     "start": "2026-04-03"
   },
   {
@@ -200,7 +200,7 @@ trabajo2026 = [
     "start": "2026-04-08"
   },
   {
-    "title": "[51] Turno: Dia",
+    "title": "[51] Turno: Día",
     "start": "2026-04-10"
   },
   {
@@ -236,35 +236,35 @@ trabajo2026 = [
     "start": "2026-04-24"
   },
   {
-    "title": "[60] Turno: Dia",
+    "title": "[60] Turno: Día",
     "start": "2026-04-27"
   },
   {
-    "title": "[61] Turno: Dia",
+    "title": "[61] Turno: Día",
     "start": "2026-04-28"
   },
   {
-    "title": "[62] Turno: Dia",
+    "title": "[62] Turno: Día",
     "start": "2026-04-29"
   },
   {
-    "title": "[63] Turno: Dia",
+    "title": "[63] Turno: Día",
     "start": "2026-04-30"
   },
   {
-    "title": "[64] Turno: Dia",
+    "title": "[64] Turno: Día",
     "start": "2026-05-04"
   },
   {
-    "title": "[65] Turno: Dia",
+    "title": "[65] Turno: Día",
     "start": "2026-05-05"
   },
   {
-    "title": "[66] Turno: Dia",
+    "title": "[66] Turno: Día",
     "start": "2026-05-06"
   },
   {
-    "title": "[67] Turno: Dia",
+    "title": "[67] Turno: Día",
     "start": "2026-05-07"
   },
   {
@@ -276,7 +276,7 @@ trabajo2026 = [
     "start": "2026-05-12"
   },
   {
-    "title": "[70] Turno: Dia",
+    "title": "[70] Turno: Día",
     "start": "2026-05-15"
   },
   {
@@ -288,7 +288,7 @@ trabajo2026 = [
     "start": "2026-05-20"
   },
   {
-    "title": "[73] Turno: Dia",
+    "title": "[73] Turno: Día",
     "start": "2026-05-22"
   },
   {
@@ -324,35 +324,35 @@ trabajo2026 = [
     "start": "2026-06-05"
   },
   {
-    "title": "[82] Turno: Dia",
+    "title": "[82] Turno: Día",
     "start": "2026-06-08"
   },
   {
-    "title": "[83] Turno: Dia",
+    "title": "[83] Turno: Día",
     "start": "2026-06-09"
   },
   {
-    "title": "[84] Turno: Dia",
+    "title": "[84] Turno: Día",
     "start": "2026-06-10"
   },
   {
-    "title": "[85] Turno: Dia",
+    "title": "[85] Turno: Día",
     "start": "2026-06-11"
   },
   {
-    "title": "[86] Turno: Dia",
+    "title": "[86] Turno: Día",
     "start": "2026-06-15"
   },
   {
-    "title": "[87] Turno: Dia",
+    "title": "[87] Turno: Día",
     "start": "2026-06-16"
   },
   {
-    "title": "[88] Turno: Dia",
+    "title": "[88] Turno: Día",
     "start": "2026-06-17"
   },
   {
-    "title": "[89] Turno: Dia",
+    "title": "[89] Turno: Día",
     "start": "2026-06-18"
   },
   {
@@ -364,7 +364,7 @@ trabajo2026 = [
     "start": "2026-06-23"
   },
   {
-    "title": "[92] Turno: Dia",
+    "title": "[92] Turno: Día",
     "start": "2026-06-26"
   },
   {
@@ -376,7 +376,7 @@ trabajo2026 = [
     "start": "2026-07-01"
   },
   {
-    "title": "[95] Turno: Dia",
+    "title": "[95] Turno: Día",
     "start": "2026-07-03"
   },
   {
@@ -412,35 +412,35 @@ trabajo2026 = [
     "start": "2026-07-17"
   },
   {
-    "title": "[104] Turno: Dia",
+    "title": "[104] Turno: Día",
     "start": "2026-07-20"
   },
   {
-    "title": "[105] Turno: Dia",
+    "title": "[105] Turno: Día",
     "start": "2026-07-21"
   },
   {
-    "title": "[106] Turno: Dia",
+    "title": "[106] Turno: Día",
     "start": "2026-07-22"
   },
   {
-    "title": "[107] Turno: Dia",
+    "title": "[107] Turno: Día",
     "start": "2026-07-23"
   },
   {
-    "title": "[108] Turno: Dia",
+    "title": "[108] Turno: Día",
     "start": "2026-07-27"
   },
   {
-    "title": "[109] Turno: Dia",
+    "title": "[109] Turno: Día",
     "start": "2026-07-28"
   },
   {
-    "title": "[110] Turno: Dia",
+    "title": "[110] Turno: Día",
     "start": "2026-07-29"
   },
   {
-    "title": "[111] Turno: Dia",
+    "title": "[111] Turno: Día",
     "start": "2026-07-30"
   },
   {
@@ -452,7 +452,7 @@ trabajo2026 = [
     "start": "2026-08-04"
   },
   {
-    "title": "[114] Turno: Dia",
+    "title": "[114] Turno: Día",
     "start": "2026-08-07"
   },
   {
@@ -464,7 +464,7 @@ trabajo2026 = [
     "start": "2026-08-12"
   },
   {
-    "title": "[117] Turno: Dia",
+    "title": "[117] Turno: Día",
     "start": "2026-08-14"
   },
   {
@@ -500,35 +500,35 @@ trabajo2026 = [
     "start": "2026-08-28"
   },
   {
-    "title": "[126] Turno: Dia",
+    "title": "[126] Turno: Día",
     "start": "2026-08-31"
   },
   {
-    "title": "[127] Turno: Dia",
+    "title": "[127] Turno: Día",
     "start": "2026-09-01"
   },
   {
-    "title": "[128] Turno: Dia",
+    "title": "[128] Turno: Día",
     "start": "2026-09-02"
   },
   {
-    "title": "[129] Turno: Dia",
+    "title": "[129] Turno: Día",
     "start": "2026-09-03"
   },
   {
-    "title": "[130] Turno: Dia",
+    "title": "[130] Turno: Día",
     "start": "2026-09-07"
   },
   {
-    "title": "[131] Turno: Dia",
+    "title": "[131] Turno: Día",
     "start": "2026-09-08"
   },
   {
-    "title": "[132] Turno: Dia",
+    "title": "[132] Turno: Día",
     "start": "2026-09-09"
   },
   {
-    "title": "[133] Turno: Dia",
+    "title": "[133] Turno: Día",
     "start": "2026-09-10"
   },
   {
@@ -540,7 +540,7 @@ trabajo2026 = [
     "start": "2026-09-15"
   },
   {
-    "title": "[136] Turno: Dia",
+    "title": "[136] Turno: Día",
     "start": "2026-09-18"
   },
   {
@@ -552,7 +552,7 @@ trabajo2026 = [
     "start": "2026-09-23"
   },
   {
-    "title": "[139] Turno: Dia",
+    "title": "[139] Turno: Día",
     "start": "2026-09-25"
   },
   {
@@ -588,35 +588,35 @@ trabajo2026 = [
     "start": "2026-10-09"
   },
   {
-    "title": "[148] Turno: Dia",
+    "title": "[148] Turno: Día",
     "start": "2026-10-12"
   },
   {
-    "title": "[149] Turno: Dia",
+    "title": "[149] Turno: Día",
     "start": "2026-10-13"
   },
   {
-    "title": "[150] Turno: Dia",
+    "title": "[150] Turno: Día",
     "start": "2026-10-14"
   },
   {
-    "title": "[151] Turno: Dia",
+    "title": "[151] Turno: Día",
     "start": "2026-10-15"
   },
   {
-    "title": "[152] Turno: Dia",
+    "title": "[152] Turno: Día",
     "start": "2026-10-19"
   },
   {
-    "title": "[153] Turno: Dia",
+    "title": "[153] Turno: Día",
     "start": "2026-10-20"
   },
   {
-    "title": "[154] Turno: Dia",
+    "title": "[154] Turno: Día",
     "start": "2026-10-21"
   },
   {
-    "title": "[155] Turno: Dia",
+    "title": "[155] Turno: Día",
     "start": "2026-10-22"
   },
   {
@@ -628,7 +628,7 @@ trabajo2026 = [
     "start": "2026-10-27"
   },
   {
-    "title": "[158] Turno: Dia",
+    "title": "[158] Turno: Día",
     "start": "2026-10-30"
   },
   {
@@ -640,7 +640,7 @@ trabajo2026 = [
     "start": "2026-11-04"
   },
   {
-    "title": "[161] Turno: Dia",
+    "title": "[161] Turno: Día",
     "start": "2026-11-06"
   },
   {
@@ -676,35 +676,35 @@ trabajo2026 = [
     "start": "2026-11-20"
   },
   {
-    "title": "[170] Turno: Dia",
+    "title": "[170] Turno: Día",
     "start": "2026-11-23"
   },
   {
-    "title": "[171] Turno: Dia",
+    "title": "[171] Turno: Día",
     "start": "2026-11-24"
   },
   {
-    "title": "[172] Turno: Dia",
+    "title": "[172] Turno: Día",
     "start": "2026-11-25"
   },
   {
-    "title": "[173] Turno: Dia",
+    "title": "[173] Turno: Día",
     "start": "2026-11-26"
   },
   {
-    "title": "[174] Turno: Dia",
+    "title": "[174] Turno: Día",
     "start": "2026-11-30"
   },
   {
-    "title": "[175] Turno: Dia",
+    "title": "[175] Turno: Día",
     "start": "2026-12-01"
   },
   {
-    "title": "[176] Turno: Dia",
+    "title": "[176] Turno: Día",
     "start": "2026-12-02"
   },
   {
-    "title": "[177] Turno: Dia",
+    "title": "[177] Turno: Día",
     "start": "2026-12-03"
   },
   {
@@ -716,7 +716,7 @@ trabajo2026 = [
     "start": "2026-12-08"
   },
   {
-    "title": "[180] Turno: Dia",
+    "title": "[180] Turno: Día",
     "start": "2026-12-11"
   },
   {
@@ -728,7 +728,7 @@ trabajo2026 = [
     "start": "2026-12-16"
   },
   {
-    "title": "[183] Turno: Dia",
+    "title": "[183] Turno: Día",
     "start": "2026-12-18"
   },
   {

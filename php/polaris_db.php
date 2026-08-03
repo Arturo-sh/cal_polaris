@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1:3306
--- Tiempo de generación: 03-08-2026 a las 10:09:18
+-- Tiempo de generación: 03-08-2026 a las 21:02:57
 -- Versión del servidor: 11.8.3-MariaDB-1+b1 from Debian
 -- Versión de PHP: 8.4.11
 
@@ -248,7 +248,7 @@ CREATE TABLE `turno` (
 --
 
 INSERT INTO `turno` (`id`, `id_turno`, `nombre`, `horario`) VALUES
-(1, 1, 'Dia', '7:00 AM - 7:00 PM'),
+(1, 1, 'Día', '7:00 AM - 7:00 PM'),
 (2, 3, 'Noche', '7:00 PM - 7:00 AM');
 
 --
