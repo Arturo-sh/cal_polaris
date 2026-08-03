@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #00002A;
+  color: #FFFFFF;
+}
+
+#title_app {
+  text-align: center;
+  font-size: 2rem;
+  margin: .5rem;
+}
+
+#content, .input_field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#content {
+  padding: 1rem;
+  flex-direction: column;
+  border: 1px solid gold;
+  border-radius: .2rem;
+}
+
+.input_field {
+  padding: .3rem;
+  color: lime;
+  border: .1rem groove green;
+}
+
+label {
+  margin-right: 10px;
+}
+
+input, select {
+  max-width: 60% !important;
+}
+
+.input_field, #section_TE, #section_vales, #section_deducciones, #modal_result {
+  border-radius: .2rem;
+}
+
+#section_TE {
+  color: cyan;
+  border: 1px dashed cyan;
+}
+
+#section_vales {
+  color: lime;
+  border: 1px dashed lime;
+}
+
+#section_deducciones {
+  color: red;
+  border: 1px dashed red;
+}
+
+#modal_result {
+  width: 100%;
+  margin: 10px;
+  padding: .8rem;
+  border: 1px dashed yellow;
+}
+
+p {
+  margin: .5rem 0 .5rem 0;
+  padding-left: 3rem;
+}
+
+@media screen and (min-width: 720px) {
+  #content {
+    font-size: 1.2rem;
+    margin: 2rem 6rem;
+  }
+}

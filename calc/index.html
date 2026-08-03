@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calculadora de salario Polaris</title>
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+<body>
+  <div id="container">
+   <div id="title_app">
+    Calculadora de salario Polaris
+   </div>
+   <div id="content">
+     <div id="form">
+      <form>
+        <div class="input_field">
+          <label for="salario_diario">Categoría: </label>
+          <select id="combo_categoria">
+            <option value="351.86">Sueldo inicial [351.86]</option>
+            <option value="404.64">Categoría básica [404.64]</option>
+            <option value="485.57">Categoría multihabilidad [485.57]</option>
+          </select>
+        </div>
+        <div class="input_field">
+          <label for="salario_diario">Salario Diario: </label>
+          <input type="text" id="salario_diario" name="salario_diario" value="351.86">
+        </div>
+        <div class="input_field">
+          <label for="horas_extra">Horas Extra: </label>
+          <input type="number" id="horas_extra" name="horas_extra" value="">
+        </div>
+        <div class="input_field">
+          <label for="prima_dominical">Prima Dominical: </label>
+          <input type="checkbox" id="prima_dominical" name="prima_dominical" value="">
+        </div>
+        <!--
+        <div class="input_field">
+          <button type="submit" id="btn_calc" name="btn_calc">Calcular</button>
+        </div>
+        -->
+      </form>
+     </div>
+    <div id="modal_result">
+      <div class="result_field">
+        <p>Sueldo ordinario: <span id="sueldo_ordinario"></span></p>
+      </div>
+      <div class="result_field">
+        <p>Septimo dia: <span id="septimo_dia"></span></p>
+      </div>
+      <div id="section_TE">
+        <div class="result_field">
+          <p>Pago horas dobles: <span id="pago_doble_extra"></span></p>
+        </div>
+        <div class="result_field">
+          <p>Pago horas triples: <span id="pago_triple_extra"></span></p>
+        </div>
+        <div class="result_field">
+          <p>Pago total horas extra: <span id="pago_horas_extra"></span></p>
+        </div>
+      </div>
+      <div class="result_field">
+        <p>Pago Prima Dominical: <span id="pago_prima_dominical"></span></p>
+      </div>
+<div class="result_field">
+        <p>Pago puntualidad: <span id="pago_puntualidad"></span></p>
+      </div>
+      <div class="result_field">
+        <p>Pago asistencia: <span id="pago_asistencia"></span></p>
+      </div>
+      <div id="section_vales">
+        <div class="result_field">
+          <p>Vale de despensa: <span id="vale_despensa"></span></p>
+        </div>
+        <div class="result_field">
+          <p>[Bono vale mensual]: <span id="bono_vale"></span></p>
+        </div>
+        <div class="result_field">
+          <p>[Total vales mensual]: <span id="total_vales_mensual"></span></p>
+        </div>
+      </div>
+      <div class="result_field">
+        <p>Fondo de ahorro: <span id="fondo_ahorro"></span></p>
+      </div>
+      <div class="result_field">
+        <p>Sueldo semanal ADI: <span id="pago_semanal_adi"></span></p>
+      </div>
+      <div id="section_deducciones">
+        <div class="result_field">
+          <p>Pago ISR: <span id="pago_isr"></span></p>
+        </div>
+        <div class="result_field">
+          <p>Pago cuota sindical: <span id="pago_cuota_sindical"></span></p>
+        </div>
+      </div>
+      <div class="result_field">
+        <p>Sueldo neto aproximado: <span id="sueldo_neto_aproximado"></span></p>
+      </div>
+    </div>
+   </div>
+  </div>
+  <script src="js/main.js"></script>
+  </body>
+</html>
